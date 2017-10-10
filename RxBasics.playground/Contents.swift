@@ -3,7 +3,7 @@
 import UIKit
 import RxSwift
 
-/*
+
  executeProcedure(for: "just"){
     
     let observable = Observable.just("Example of Just Operator!")
@@ -122,7 +122,7 @@ executeProcedure(for: "ReplaySubject"){
     })
         .disposed(by: disposeBag)
 }
- */
+ 
 
 executeProcedure(for: "Variable") { 
     let disposeBag = DisposeBag()
